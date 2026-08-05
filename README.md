@@ -142,12 +142,6 @@ OPENAI_API_KEY=your_api_key_here
 python -m streamlit run app.py
 ```
 
-실행 후 브라우저에서 아래 주소로 접속합니다.
-
-```text
-http://localhost:8501
-```
-
 ---
 
 ## 🔎 문제 해결 과정
