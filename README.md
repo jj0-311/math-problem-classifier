@@ -66,6 +66,8 @@ GPT 최종 판단
 
 ```text
 math-problem-classifier/
+├── images/
+│   └── result_screen.png
 ├── app.py
 ├── classify_problem.py
 ├── classification_reference.xlsx
@@ -74,3 +76,12 @@ math-problem-classifier/
 ├── .env.example
 ├── .gitignore
 └── README.md
+```
+
+---
+
+## 🖥 실행 화면
+
+기준 대표 문제와 분류할 문제를 업로드하면 분류 진행 상황과 GPT 최종 결과를 확인하고, 결과를 엑셀 파일로 다운로드할 수 있습니다.
+
+![수학 문제 AI 분류기 실행 화면](images/result_screen.png)
