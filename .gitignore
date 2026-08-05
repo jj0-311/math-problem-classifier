@@ -1,0 +1,30 @@
+# API 키와 환경변수
+.env
+
+# 파이썬 가상환경
+venv/
+.venv/
+
+# 파이썬 임시 파일
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Streamlit 설정 및 캐시
+.streamlit/
+.cache/
+
+# VS Code 개인 설정
+.vscode/
+
+# 운영체제 임시 파일
+.DS_Store
+Thumbs.db
+
+# 실행 결과 엑셀
+similarity_result.xlsx
+final_classification_result.xlsx
+
+# 임시 엑셀 파일
+~$*.xlsx
